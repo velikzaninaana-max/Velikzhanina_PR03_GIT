@@ -16,5 +16,10 @@ namespace Velikzhanina_PR03_GIT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(DateTime.Now.ToString(), "Current Date and Time", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
